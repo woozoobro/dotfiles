@@ -10,8 +10,8 @@ else
     echo "Homebrew already installed"
 fi
 
-# Brewfile로 패키지 설치
-echo "Installing packages from Brewfile..."
-brew bundle --file=~/dotfiles/Brewfile
+# 패키지 설치 (이미 있는 건 스킵)
+echo "Installing packages..."
+brew bundle --file=~/dotfiles/Brewfile --no-lock --verbose
 
 echo "=== Setup Complete ==="
