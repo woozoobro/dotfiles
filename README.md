@@ -25,13 +25,25 @@ git push
 
 ## 새 PC에서 (복원)
 
+### 1. Homebrew 설치
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 2. GitHub CLI 설치 및 로그인
+```bash
+brew install gh
+gh auth login
+```
+
+### 3. 클론 및 셋업
 ```bash
 git clone https://github.com/woozoobro/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./setup.sh
 ```
 
-끝! Homebrew와 모든 패키지가 자동으로 설치된다.
+끝! 모든 패키지가 자동으로 설치된다.
 
 ---
 
