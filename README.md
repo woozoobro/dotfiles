@@ -25,24 +25,13 @@ git push
 
 ## 새 PC에서 (복원)
 
-### 1. Xcode Command Line Tools 설치
-```bash
-xcode-select --install
-```
-
-### 2. 저장소 클론
 ```bash
 git clone https://github.com/woozoobro/dotfiles.git ~/dotfiles
-```
-
-### 3. 셋업 스크립트 실행
-```bash
 cd ~/dotfiles
-chmod +x setup.sh
 ./setup.sh
 ```
 
-완료! Homebrew와 모든 패키지가 설치된다.
+끝! Homebrew와 모든 패키지가 자동으로 설치된다.
 
 ---
 
