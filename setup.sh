@@ -12,6 +12,6 @@ fi
 
 # 패키지 설치 (이미 있는 건 스킵)
 echo "Installing packages..."
-brew bundle --file=~/dotfiles/Brewfile --no-lock --verbose
+brew bundle --file=~/dotfiles/Brewfile --verbose
 
 echo "=== Setup Complete ==="
